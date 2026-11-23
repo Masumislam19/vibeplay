@@ -1,0 +1,18 @@
+# VibePlay — Netlify configuration
+#
+# Next.js is deployed with Netlify's automatically managed OpenNext adapter.
+# Per the current Netlify Next.js documentation, do NOT add
+# `@netlify/plugin-nextjs` to package.json or declare a [[plugins]] block here:
+# doing either pins a legacy adapter version and opts out of automatic updates.
+#
+# Backend: every route handler under src/app/api/** is compiled into a
+# serverless function by the adapter — there is no always-running server.
+# Database: MongoDB Atlas M0 Free via MONGODB_URI and MONGODB_DB_NAME=vibeplay.
+# Docs: https://docs.netlify.com/build/frameworks/framework-setup-guides/nextjs/overview/
+
+[build]
+  publish = ".next"
+  command = "npm run build"
+
+[build.environment]
+  NODE_VERSION = "20"

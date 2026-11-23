@@ -1,0 +1,33 @@
+# dependencies
+node_modules/
+
+# builds
+.next/
+out/
+dist/
+.vite/
+
+# environment & secrets
+.env
+.env.*
+!.env.example
+
+# logs & caches
+*.log
+npm-debug.log*
+.turbo/
+.eslintcache
+
+# netlify local artifacts
+.netlify/
+
+# os / editor
+.DS_Store
+Thumbs.db
+.idea/
+
+# deliverable zip (created separately, not part of the repo)
+VibePlay-Source.zip
+.env
+.env.*
+!.env.example
