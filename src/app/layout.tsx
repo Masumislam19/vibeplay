@@ -32,6 +32,11 @@ export async function generateMetadata(): Promise<Metadata> {
       template: `%s · ${settings.siteName}`,
     },
     description: settings.siteDescription,
+    referrer: "no-referrer-when-downgrade",
+    other: {
+  "fc8a2ac3e1e6ca8038a0b8827d0fcac49863ec46":
+    "fc8a2ac3e1e6ca8038a0b8827d0fcac49863ec46",
+    },
     alternates: siteUrl ? { canonical: "/" } : undefined,
     openGraph: {
       title: `${settings.siteName} — ${settings.siteTagline}`,
