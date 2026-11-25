@@ -20,7 +20,7 @@ import { VideoGrid } from "@/components/videos/video-grid";
 
 export const dynamic = "force-dynamic";
 
-const SMARTLINK_URL = "https://thoroughgear.com/pRiVYF";
+const SMARTLINK_URL = "https://thoroughgear.com/bG3tVp0.Pi3zpEvRbYm/V-JfZZDq0X3ONBj/Uk4UM_TnA_1hLJTYcJ2hNsTGgnxNMbDXkX";
 
 /**
  * Reusable action buttons for homepage sections.
